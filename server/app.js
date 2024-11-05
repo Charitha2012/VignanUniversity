@@ -20,7 +20,7 @@ app.use(cors(corsOptions)); // Use CORS with options
 //url encoded for post requests
 app.use(express.urlencoded({ extended: true }));
 
-//json
+//json 
 app.use(express.json());
 
 //connect mongodb
@@ -29,7 +29,7 @@ connectDB();
 //default route
 //before routes write 
 app.get("/",(req,res)=>{
-res.json("Welcome to DDD University")
+res.json("Welcome to Vignan University")
 }}
         
 //routes

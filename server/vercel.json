@@ -2,13 +2,13 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.js", // Ensure this path is correct
+      "src": "app.js", 
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)", // This will route all requests to app.js
+      "src": "/(.*)", 
       "dest": "/app.js"
     }
   ]
